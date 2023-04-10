@@ -27,7 +27,7 @@ header {
     text-align: left;
 }
 
-h2{
+h2 {
     font-size: 5vh;
     color: black;
 }
@@ -35,4 +35,22 @@ h2{
 .headerImg {
     height: 5.5vh;
     margin: 2vh;
+}
+
+.divTop {
+    margin: 3vh;
+}
+
+.gif {
+    display: flex;
+    background-color: #9cd9ff53;
+    width: 70vh;
+    height: 40vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-top-left-radius: 65px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
