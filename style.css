@@ -76,7 +76,7 @@ hr {
 
 h3:hover,
 h5:hover {
-    color: rgb(255, 251, 0);
+    color: rgb(177, 239, 255);
     background: linear-gradient(rgb(0, 0, 0) 0 0) var(--p, 0) / var(--p, 0) no-repeat;
     transition: .6s;
 }
