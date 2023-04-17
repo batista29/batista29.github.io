@@ -1,7 +1,10 @@
-/* #665A46
-#3276B3
-#5687B3
-#274866 */
+:root {
+    --cor0: #212026;
+    --cor1: #525759;
+    --cor2: #D7D9D8;
+    --cor3: #737065;
+    --cor4: #0D0000;
+}
 
 * {
     margin: 0;
@@ -10,7 +13,7 @@
 }
 
 body {
-    background-color: #274866;
+    background-color: var(--cor0);
     color: rgb(255, 255, 255);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -20,9 +23,13 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #6ea5d4;
+    background-color: var(--cor0);
     border-bottom: 2px solid rgb(255, 255, 255);
     height: 12vh;
+}
+
+.myname {
+    font-size: 3.5vh;
 }
 
 .div_row {
@@ -32,9 +39,15 @@ header {
     text-align: left;
 }
 
-.headerImg {
+.headerImg,
+.headerImgGit {
     height: 5.5vh;
     margin: 2vh;
+}
+
+.headerImgGit {
+    border-radius: 100%;
+    background-color: white;
 }
 
 .divTop {
@@ -69,20 +82,73 @@ header {
     color: rgb(0, 255, 235);
 }
 
-hr {
+.hrLinguagens {
     margin-top: 1vh;
     border: 1px solid rgb(0, 255, 235);
 }
 
 h3:hover,
 h5:hover {
-    color: rgb(177, 239, 255);
+    color: rgb(0, 204, 255);
     background: linear-gradient(rgb(0, 0, 0) 0 0) var(--p, 0) / var(--p, 0) no-repeat;
     transition: .6s;
 }
 
-.resumo>img {
-    margin-top: 3vh;
-    margin-right: 15px;
+.divIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divIcons>img {
+    margin-top: 6vh;
     height: 9vh;
+}
+
+.divCertificacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    width: 100%;
+    height: 100vh;
+}
+
+.certificacoes {
+    width: 80%;
+    height: 80%;
+    background-color: #000000;
+    border-radius: 50px;
+}
+
+.certificacoes>h2,h1 {
+    margin: 5vh;
+}
+
+h1{
+    color: rgb(0, 200, 255);
+}
+
+.hrsenai{
+    width: 50vh;
+}
+
+.hrnovotec {
+    width: 35vh;
+}
+
+.hrnovotec,
+.hrsenai,
+p {
+    margin-left: 5vh;
+}
+
+.hrnovotec,
+.hrsenai{
+    border: 1px solid rgb(0, 200, 255);
+}
+
+.sepTopAndBottom {
+    border: 1      px solid  rgb(0, 200, 255);
+    margin-top: 200px;
 }
