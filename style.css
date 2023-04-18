@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: var(--cor0);
+    background-color: var(--cor4);
     color: rgb(255, 255, 255);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -23,7 +23,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: var(--cor0);
+    background-color: var(--cor4);
     border-bottom: 2px solid rgb(255, 255, 255);
     height: 12vh;
 }
@@ -117,38 +117,46 @@ h5:hover {
 .certificacoes {
     width: 80%;
     height: 80%;
-    background-color: #000000;
+    background-color: var(--cor0);
     border-radius: 50px;
 }
 
-.certificacoes>h2,h1 {
+.certificacoes>h2,
+h1 {
     margin: 5vh;
 }
 
-h1{
+h1 {
     color: rgb(0, 200, 255);
 }
 
-.hrsenai{
+.hrsenai {
     width: 50vh;
 }
 
 .hrnovotec {
-    width: 35vh;
+    width: 30vh;
+}
+
+.hrMicrosoft{
+    width: 60vh;
 }
 
 .hrnovotec,
 .hrsenai,
-p {
+p,
+h4,
+.hrMicrosoft {
     margin-left: 5vh;
 }
 
 .hrnovotec,
-.hrsenai{
+.hrsenai,
+.hrMicrosoft {
     border: 1px solid rgb(0, 200, 255);
 }
 
 .sepTopAndBottom {
-    border: 1      px solid  rgb(0, 200, 255);
+    border: 1 px solid rgb(0, 200, 255);
     margin-top: 200px;
 }
