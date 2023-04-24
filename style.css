@@ -98,11 +98,18 @@ h5:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 15vh;
 }
 
 .divIcons>img {
     margin-top: 6vh;
     height: 9vh;
+    transition: transform 1s;
+}
+
+.divIcons>img:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
 }
 
 .divCertificacoes {
@@ -138,7 +145,7 @@ h1 {
     width: 30vh;
 }
 
-.hrMicrosoft{
+.hrMicrosoft {
     width: 60vh;
 }
 
