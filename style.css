@@ -26,15 +26,21 @@ header {
     background-color: var(--cor4);
     border-bottom: 2px solid rgb(255, 255, 255);
     height: 12vh;
+    color: rgb(0, 255, 255);
+    ;
 }
 
 .myname {
-    font-size: 3.5vh;
+    height: 20vh;
+}
+
+#timer {
+    font-size: 3vh;
 }
 
 .div_row {
     display: grid;
-    grid-template-columns: 15fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 13fr 4fr 2fr 1fr;
     align-items: center;
     text-align: left;
 }
@@ -114,21 +120,26 @@ h5:hover {
 
 .divCertificacoes {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 10vh;
     width: 100%;
     height: 100vh;
 }
 
-.certificacoes {
-    width: 80%;
+.certificacoes, .premios {
+    width: 40%;
     height: 80%;
     background-color: var(--cor0);
     border-radius: 50px;
 }
 
 .certificacoes>h2,
+h1 {
+    margin: 5vh;
+}
+
+.premios>h2,
 h1 {
     margin: 5vh;
 }
