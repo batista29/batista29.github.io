@@ -40,7 +40,7 @@ header {
 
 .div_row {
     display: grid;
-    grid-template-columns: 13fr 4fr 2fr 1fr;
+    grid-template-columns: 13fr 3fr 1fr 1fr 1fr;
     align-items: center;
     text-align: left;
 }
