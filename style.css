@@ -127,7 +127,8 @@ h5:hover {
     height: 100vh;
 }
 
-.certificacoes, .premios {
+.certificacoes,
+.premios {
     width: 40%;
     height: 80%;
     background-color: var(--cor0);
@@ -177,4 +178,33 @@ h4,
 .sepTopAndBottom {
     border: 1 px solid rgb(0, 200, 255);
     margin-top: 200px;
+}
+
+.proj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projetos {
+    display: flex;
+    height: 60vh;
+    width: 95%;
+    background-color:var(--cor0);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.projetos>span{
+    display: grid;
+    justify-content: center;
+    background-color:var(--cor1);
+    height: 45vh;
+    width: 550px;
+    border: 2px solid black;
+}
+
+.imgProjeto {
+    height: 265px;
 }
