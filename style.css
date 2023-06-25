@@ -1,3 +1,11 @@
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    outline-width: 0px;
+}
+
 :root {
     --cor0: #212026;
     --cor1: #525759;
@@ -6,176 +14,98 @@
     --cor4: #0D0000;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    background-color: var(--cor4);
-    color: rgb(255, 255, 255);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--cor0);
+    color: var(--cor2);
 }
 
 header {
     display: flex;
-    justify-content: center;
+    height: 100px;
+    border-bottom: 2px solid var(--cor1);
     align-items: center;
+}
+
+header>nav {
+    width: 50%;
+}
+
+.links ul {
+    display: table;
+    width: 100%;
+}
+
+.links ul li {
+    list-style-type: none;
+    display: table-cell;
+    width: 25%;
     text-align: center;
-    background-color: var(--cor4);
-    border-bottom: 2px solid rgb(255, 255, 255);
-    height: 12vh;
-    color: rgb(0, 255, 255);
-    ;
+    font-weight: bold;
+    padding-right: 10px;
 }
 
-.myname {
-    height: 20vh;
+.links ul li a:hover {
+    border-bottom: 2px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    transition-duration: 0.7s;
 }
 
-#timer {
-    font-size: 3vh;
+nav>.myName {
+    margin-left: 50px;
 }
 
-.div_row {
-    display: grid;
-    grid-template-columns: 13fr 3fr 1fr 1fr 1fr;
-    align-items: center;
-    text-align: left;
+.myName:hover {
+    color: rgb(255, 0, 0);
+    transition-duration: 0.7s;
 }
 
-.headerImg,
-.headerImgGit {
-    height: 5.5vh;
-    margin: 2vh;
+.links ul li a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    transition: .4s, background-position 0s;
 }
 
-.headerImgGit {
-    border-radius: 100%;
-    background-color: white;
+a {
+    border-bottom: 2px solid var(--cor2);
+    color: var(--cor2);
 }
 
-.divTop {
-    display: grid;
-    margin-top: 10vh;
-    grid-template-columns: 1fr 1fr;
-    font-size: 3vh;
-}
-
-.back_gif {
+#sobre {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-right: 20vh;
+    margin-top: 5vh;
+    height: 50vh;
+}
+
+#sobre div {
+    width: 50%;
 }
 
 .gif {
-    height: 40vh;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.gif img {
+    height: 90%;
+    margin-left: 130px;
 }
 
 .resumo {
-    margin-top: 5vh;
-    margin-right: 2vh;
+    padding: 60px 130px;
 }
 
-.resumo>h3 {
-    color: rgb(255, 255, 255);
+.resumo .infos {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.resumo>h5 {
-    color: rgb(0, 255, 235);
-}
-
-.hrLinguagens {
-    margin-top: 1vh;
-    border: 1px solid rgb(0, 255, 235);
-}
-
-h3:hover,
-h5:hover {
-    color: rgb(0, 204, 255);
-    background: linear-gradient(rgb(0, 0, 0) 0 0) var(--p, 0) / var(--p, 0) no-repeat;
-    transition: .6s;
-}
-
-.divIcons {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 15vh;
-}
-
-.divIcons>img {
-    margin-top: 6vh;
-    height: 9vh;
-    transition: transform 1s;
-}
-
-.divIcons>img:hover {
-    transition: 0.4s;
-    transform: scale(1.2);
-}
-
-.divCertificacoes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10vh;
-    width: 100%;
-    height: 100vh;
-}
-
-.certificacoes,
-.premios {
-    width: 40%;
-    height: 80%;
-    background-color: var(--cor0);
-    border-radius: 50px;
-}
-
-.certificacoes>h2,
-h1 {
-    margin: 5vh;
-}
-
-.premios>h2,
-h1 {
-    margin: 5vh;
-}
-
-h1 {
-    color: rgb(0, 200, 255);
-}
-
-.hrsenai {
-    width: 50vh;
-}
-
-.hrnovotec {
-    width: 30vh;
-}
-
-.hrMicrosoft {
-    width: 60vh;
-}
-
-.hrnovotec,
-.hrsenai,
-p,
-h4,
-.hrMicrosoft {
-    margin-left: 5vh;
-}
-
-.hrnovotec,
-.hrsenai,
-.hrMicrosoft {
-    border: 1px solid rgb(0, 200, 255);
-}
-
-.sepTopAndBottom {
-    border: 1px solid rgb(0, 200, 255);
-    margin-top: 200px;
+.topico {
+    font-size: 30px;
+    color: rgb(145, 205, 255);
+    border-bottom: 1px solid rgb(145, 205, 255);
 }
