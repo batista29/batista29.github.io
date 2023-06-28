@@ -179,3 +179,89 @@ a {
     height: 20vh;
     background-color: #3d2424;
 }  */
+
+@media (max-width : 412px) {
+    header {
+        display: grid;
+        width: 412px;
+    }
+
+    header nav h1 {
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .myName {
+        display: flex;
+        justify-content: center;
+        margin-right: 50px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    .links ul li {
+        padding-left: 10px;
+    }
+
+    main {
+        width: 412px;
+    }
+
+    #sobre {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        height: 30vh;
+    }
+
+    .gif {
+        display: none;
+        visibility: hidden;
+    }
+
+    .resumo {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .infos {
+        width: 100%;
+    }
+
+    .resumo .infos {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .topico {
+        font-size: 20px;
+        color: rgb(145, 205, 255);
+        border-bottom: 1px solid rgb(145, 205, 255);
+    }
+
+    #projetos{
+        height: fit-content;
+    }
+
+    .linhaDeProjetos {
+        display: grid;
+    }
+
+    .projetosTitulo h1 {
+        font-size: 25px;
+    }
+
+    .card_projeto {
+        margin: 0px 20px 20px;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #projetos .projetosTitulo {
+        margin-top: 15px;
+        height: 30%;
+    }
+}
