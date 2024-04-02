@@ -17,7 +17,7 @@
         display: none;
     }
 
-    .links{
+    .links {
         width: 100%;
     }
 
@@ -86,12 +86,12 @@
         height: 120vh;
     }
 
-    .name-proj h4{
+    .name-proj h4 {
         font-size: 35px;
         margin-bottom: 1vh;
     }
 
-    .projetos {
+    #projetos {
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
@@ -101,6 +101,46 @@
         margin: 1vh;
         height: 180px;
         border: 2px solid var(--cor4);
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        height: 10vh;
+        border-top: 2px solid var(--cor0);
+        background-color: var(--cor2);
+        margin-top: 5vh;
+        align-items: center;
+    }
+
+    footer>nav {
+        width: 100%;
+    }
+
+    .links_contatos ul {
+        display: table;
+        width: 100%;
+    }
+
+    .links_contatos ul li {
+        list-style-type: none;
+        display: table-cell;
+        width: 25%;
+        text-align: center;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    .links_contatos ul li a {
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        transition: .4s, background-position 0s;
+    }
+
+    .links_contatos ul li a img {
+        height: 40px;
     }
 }
 
@@ -123,7 +163,7 @@
         display: none;
     }
 
-    .links{
+    .links {
         width: 100%;
     }
 
@@ -189,16 +229,16 @@
 
     .mais-sobre {
         width: 100%;
-        height: 120vh;
+        height: 100vh;
         margin-top: 3vh;
     }
 
-    .name-proj h4{
+    .name-proj h4 {
         font-size: 27px;
         margin-bottom: 1vh;
     }
 
-    .projetos {
+    #projetos {
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
@@ -208,5 +248,49 @@
         margin: 1vh;
         height: 180px;
         border: 2px solid var(--cor4);
+    }
+
+    .meus_contatos {
+        height: 35vh;
+    }
+
+    footer {
+        display: flex;
+        width: 100%;
+        height: 10vh;
+        border-top: 2px solid var(--cor0);
+        background-color: var(--cor2);
+        margin-top: 0vh;
+        align-items: center;
+    }
+
+    footer>nav {
+        width: 100%;
+    }
+
+    .links_contatos ul {
+        display: table;
+        width: 100%;
+    }
+
+    .links_contatos ul li {
+        list-style-type: none;
+        display: table-cell;
+        width: 25%;
+        text-align: center;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    .links_contatos ul li a {
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        transition: .4s, background-position 0s;
+    }
+
+    .links_contatos ul li a img {
+        height: 40px;
     }
 }
