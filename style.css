@@ -78,6 +78,9 @@ header a {
 
 section {
     width: 100%;
+}
+
+.about-me{
     margin-top: 5vh;
 }
 
@@ -115,6 +118,19 @@ main {
     font-size: 15px;
 }
 
+.mais-sobre{
+    margin-top: 10vh;
+}
+
+.name-proj{
+    display: flex;
+    justify-content: center;
+}
+
+.name-proj h4{
+    font-size: 50px;
+}
+
 .projetos {
     display: grid;
     grid-template-columns: auto auto;
@@ -125,116 +141,4 @@ main {
     margin-top: 5vh;
     height: 300px;
     border: 2px solid var(--cor4);
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    header {
-        display: flex;
-        width: 100%;
-        height: 10vh;
-        border-bottom: 2px solid var(--cor0);
-        align-items: center;
-        background-color: var(--cor2);
-    }
-
-    header a {
-        border-bottom: 2px solid var(--cor0);
-        color: var(--cor0);
-    }
-
-    .nav-myName {
-        display: none;
-    }
-
-    .links{
-        width: 100%;
-    }
-
-    .links ul {
-        display: table;
-        width: 100%;
-    }
-
-    .links ul li {
-        list-style-type: none;
-        display: table-cell;
-        width: 25%;
-        text-align: center;
-        font-weight: bold;
-        padding-right: 10px;
-    }
-
-    .links ul li a:hover {
-        border-bottom: 2px solid rgb(0, 19, 34);
-        color: rgb(0, 19, 34);
-        transition-duration: 0.7s;
-    }
-
-
-    .links ul li a {
-        display: block;
-        text-decoration: none;
-        width: 100%;
-        height: 100%;
-        font-size: 15px;
-        transition: .4s, background-position 0s;
-    }
-
-
-
-
-
-
-
-
-    main {
-        display: flex;
-        width: 100%;
-        margin-top: 0;
-    }
-
-    .aboutMe {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    .myMedias a img {
-        height: 35px;
-    }
-
-    .whoIam h1 {
-        font-size: 27px;
-    }
-
-    .whoIam h2 {
-        font-size: 35px;
-        border-bottom: 5px solid black;
-    }
-
-    .whoIam h5 {
-        margin-top: 15px;
-        font-size: 11px;
-    }
-
-
-
-    .mais-sobre {
-        width: 100%;
-        height: 120vh;
-    }
-
-    .projetos {
-        display: grid;
-        grid-template-columns: auto;
-        justify-content: center;
-    }
-
-    .project1>img {
-        margin: 1vh;
-        height: 180px;
-        border: 2px solid var(--cor4);
-    }
 }
