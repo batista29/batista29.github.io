@@ -80,7 +80,7 @@ section {
     width: 100%;
 }
 
-.about-me{
+.about-me {
     margin-top: 5vh;
 }
 
@@ -118,16 +118,16 @@ main {
     font-size: 15px;
 }
 
-.mais-sobre{
+.mais-sobre {
     margin-top: 10vh;
 }
 
-.name-proj{
+.name-proj {
     display: flex;
     justify-content: center;
 }
 
-.name-proj h4{
+.name-proj h4 {
     font-size: 50px;
 }
 
@@ -137,14 +137,28 @@ main {
     justify-content: space-evenly;
 }
 
-.project1>img {
+.project1 {
     margin-top: 5vh;
-    height: 300px;
-    border: 2px solid var(--cor4);
-    transition: .4s, background-position 0s;
+    background-color: rgb(19, 19, 22);
+    height: fit-content;
+    border: 5px solid var(--cor1);
 }
 
-footer{
+.project1 div img {
+    height: 300px;
+    transition: .4s, background-position 0s;
+    border-bottom: 5px solid var(--cor1);
+}
+
+.project1 div p img {
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+footer {
     display: flex;
     width: 100%;
     height: 10vh;
@@ -177,14 +191,13 @@ footer>nav {
     text-decoration: none;
     width: 100%;
     height: 100%;
-    transition: .4s, background-position 0s;
 }
 
-.links_contatos ul li a:hover, .project1 img:hover  {
+.links_contatos ul li a:hover {
     transform: scale(1.03);
     transition-duration: 0.7s;
 }
 
-.links_contatos ul li a img{
+.links_contatos ul li a img {
     height: 40px;
 }
