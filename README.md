@@ -1,7 +1,7 @@
-# Meu portifolio web
+# Potfolio em reconstrução
 
 * Projeto sendo desenvolvido para mostrar os meus trabalhos e dominios.
-* Link: <a href="batista29.github.io">my portfolio</a>
+* Link: <a href="batista29.github.io">Meu portfolio</a>
 
 ### Linguagens:
 * Javascript
